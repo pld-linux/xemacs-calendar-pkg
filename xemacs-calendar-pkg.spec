@@ -1,5 +1,5 @@
 Summary:	Calendar and diary support
-Summary(pl):	Kalendarz i dziennik dle XEmacsa
+Summary(pl):	Kalendarz i dziennik dla XEmacsa
 Name:		xemacs-calendar-pkg
 %define 	srcname	calendar
 Version:	1.22
