@@ -6,6 +6,7 @@ Version:	1.16
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -16,21 +17,18 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XEmacs calendar and diary modes
-Read about Calendar in XEmacs info manual.
-To let XEmacs automatically remid you about uopcoming events,
+XEmacs calendar and diary modes Read about Calendar in XEmacs info
+manual. To let XEmacs automatically remid you about uopcoming events,
 add this to you ~/.emacs:
 (require 'appt)
 (display-time)
 (appt-initialize)
 (diary)
 
-
 %description -l pl 
-Kalendarz i dziennik dla XEmacsa. Opis znale¼æ mo¿na w podrêczniku XEmacsa 
-(szukaj Calendar).
-Aby XEmacs sam przypomina³ o nadchodz±cych wydarzeniach, warto dopisaæ
-do ~/.emacs:
+Kalendarz i dziennik dla XEmacsa. Opis znale¼æ mo¿na w podrêczniku
+XEmacsa (szukaj Calendar). Aby XEmacs sam przypomina³ o nadchodz±cych
+wydarzeniach, warto dopisaæ do ~/.emacs:
 (require 'appt)
 (display-time)
 (appt-initialize)
