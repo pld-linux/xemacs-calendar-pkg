@@ -2,7 +2,7 @@ Summary:	Calendar and diary support
 Summary(pl):	Calendar and diary support
 Name:		xemacs-calendar-pkg
 %define 	srcname	calendar
-Version:	1.14
+Version:	1.15
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
