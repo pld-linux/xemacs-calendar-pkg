@@ -13,13 +13,11 @@ BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
 Requires:	xemacs-base-pkg
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 
-
 %description -l pl 
-
 
 %prep
 %setup -q -c
