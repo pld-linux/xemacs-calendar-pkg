@@ -2,7 +2,7 @@ Summary:	Calendar and diary support
 Summary(pl):	Kalendarz i dziennik dle XEmacsa
 Name:		xemacs-calendar-pkg
 %define 	srcname	calendar
-Version:	1.16
+Version:	1.18
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
