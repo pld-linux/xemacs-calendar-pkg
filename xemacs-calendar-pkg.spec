@@ -24,7 +24,7 @@ add this to you ~/.emacs:
 (appt-initialize)
 (diary)
 
-%description -l pl 
+%description -l pl
 Kalendarz i dziennik dla XEmacsa. Opis znale¼æ mo¿na w podrêczniku
 XEmacsa (szukaj Calendar). Aby XEmacs sam przypomina³ o nadchodz±cych
 wydarzeniach, warto dopisaæ do ~/.emacs:
