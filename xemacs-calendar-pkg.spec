@@ -3,12 +3,11 @@ Summary(pl):	Kalendarz i dziennik dle XEmacsa
 Name:		xemacs-calendar-pkg
 %define 	srcname	calendar
 Version:	1.18
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
-Group(de):	Applikationen/Editors/Emacs
-Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	1fbd29614f2b1b29494dc2ea3241c16a
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
