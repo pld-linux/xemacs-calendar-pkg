@@ -1,5 +1,5 @@
 Summary:	Calendar and diary support
-Summary(pl):	Kalendarz i dziennik dla XEmacsa
+Summary(pl.UTF-8):   Kalendarz i dziennik dla XEmacsa
 Name:		xemacs-calendar-pkg
 %define 	srcname	calendar
 Version:	1.23
@@ -24,10 +24,10 @@ add this to you ~/.emacs:
 (appt-initialize)
 (diary)
 
-%description -l pl
-Kalendarz i dziennik dla XEmacsa. Opis znale¼æ mo¿na w podrêczniku
-XEmacsa (szukaj Calendar). Aby XEmacs sam przypomina³ o nadchodz±cych
-wydarzeniach, warto dopisaæ do ~/.emacs:
+%description -l pl.UTF-8
+Kalendarz i dziennik dla XEmacsa. Opis znaleÅºÄ‡ moÅ¼na w podrÄ™czniku
+XEmacsa (szukaj Calendar). Aby XEmacs sam przypominaÅ‚ o nadchodzÄ…cych
+wydarzeniach, warto dopisaÄ‡ do ~/.emacs:
 (require 'appt)
 (display-time)
 (appt-initialize)
