@@ -6,7 +6,7 @@ Version:	1.23
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	de5fd826168913232c48aa88ec0f1d5c
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
