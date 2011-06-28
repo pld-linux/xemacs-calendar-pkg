@@ -2,12 +2,12 @@ Summary:	Calendar and diary support
 Summary(pl.UTF-8):	Kalendarz i dziennik dla XEmacsa
 Name:		xemacs-calendar-pkg
 %define 	srcname	calendar
-Version:	1.23
+Version:	1.38
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	de5fd826168913232c48aa88ec0f1d5c
+# Source0-md5:	58bb8539f0983d1824ecacd402326301
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
